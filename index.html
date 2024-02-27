@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="wrapper">
+          <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+    <div class="form-box register">
+        <h2>Sign up</h2>
+        <form action="login.html">
+          <div class="input-box">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <input type="text" id="username" autocomplete="off" required>
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <input type="email" id="email"  autocomplete="off" required>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon">
+              <i class="fa-solid fa-lock"></i>
+            </span>
+            <input type="password" id="pass" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox">I agree to the terms and conditions</label>
+         
+          </div>
+          <input type="submit" value="submit" id="btn" onclick="addData()">
+          <div class="login-register">
+            <p>Already have an account?
+              <a href="login.html" class="login-link">
+                Sign in</a></p>
+          </div>
+        </form>
+      </div>
+      </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

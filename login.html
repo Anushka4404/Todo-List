@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <form>
+        <h1>Login Page</h1>
+        <input type="email" id="email" placeholder="email" autocomplete="off">
+        <br>
+        <br>
+        <input type="password" id="pass" placeholder="password">
+        <br>
+        <br>
+        <input type="submit" value="submit" onclick="checkData()">
+    </form> -->
+    
+    <div class="wrap">
+        <div class="wrapper">
+          <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+    
+          <div class="form-box login">
+            <h2>Sign in</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <input type="email" id="email"  autocomplete="off" required>
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon">
+                  <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="password" id="pass" required>
+                <label>Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+              </div>
+              <input type="submit" value="submit" id="btn" onclick="checkData()">
+              <div class="login-register">
+                <p>Don't have an account?
+                  <a href="index.html" class="register-link">
+                    Sign up</a></p>
+              </div>
+            </form>
+          </div>
+          </div>
+          </div>
+    <script src="login.js"></script>
+</body>
+</html>
